@@ -840,7 +840,7 @@ class login_entrance{
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Font font=new Font("宋体", Font.BOLD,25);
 
-		ImageIcon background=new ImageIcon("C:\\Users\\黄婕\\Pictures\\网络图片\\timg.jpg");
+		ImageIcon background=new ImageIcon("C:\\Users\\Pictures\\网络图片\\timg.jpg");
 		JLabel label=new JLabel(background);
 		label.setBounds(0,0,background.getIconWidth(),background.getIconHeight());
 		f.getLayeredPane().add(label,new Integer(Integer.MIN_VALUE));//LayeredPane为JFC/Swing容器添加了深度，允许组件的重叠
